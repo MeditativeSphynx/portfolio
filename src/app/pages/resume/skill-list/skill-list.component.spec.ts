@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SkillsComponent } from './skills.component';
+import { SkillListComponent } from './skill-list.component';
 
 describe('SkillsComponent', () => {
   let component: SkillsComponent;
@@ -8,11 +8,11 @@ describe('SkillsComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SkillsComponent ]
+      declarations: [ SkillListComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SkillsComponent);
+    fixture = TestBed.createComponent(SkillListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

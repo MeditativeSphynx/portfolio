@@ -4,16 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ResumeComponent } from './pages/resume/resume.component';
-import { SkillsComponent } from './pages/resume/skills/skills.component';
+import { SkillListComponent } from './pages/resume/skill-list/skill-list.component';
 import { JobHistoryComponent } from './pages/resume/job-history/job-history.component';
 import { JobComponent } from './pages/resume/job-history/job/job.component';
-import { SkillComponent } from './pages/resume/skills/skill/skill.component';
+import { SkillComponent } from './pages/resume/skill-list/skill/skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ResumeComponent,
-    SkillsComponent,
+    SkillListComponent,
     JobHistoryComponent,
     JobComponent,
     SkillComponent
