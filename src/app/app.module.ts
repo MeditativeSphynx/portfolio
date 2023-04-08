@@ -8,6 +8,7 @@ import { SkillListComponent } from './pages/resume/skill-list/skill-list.compone
 import { JobHistoryComponent } from './pages/resume/job-history/job-history.component';
 import { JobComponent } from './pages/resume/job-history/job/job.component';
 import { SkillComponent } from './pages/resume/skill-list/skill/skill.component';
+import { TopNavComponent } from './components/shared/top-nav/top-nav.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SkillComponent } from './pages/resume/skill-list/skill/skill.component'
     SkillListComponent,
     JobHistoryComponent,
     JobComponent,
-    SkillComponent
+    SkillComponent,
+    TopNavComponent
   ],
   imports: [
     BrowserModule,
