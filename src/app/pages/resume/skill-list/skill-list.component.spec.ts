@@ -3,8 +3,8 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { SkillListComponent } from './skill-list.component';
 
 describe('SkillsComponent', () => {
-  let component: SkillsComponent;
-  let fixture: ComponentFixture<SkillsComponent>;
+  let component: SkillListComponent;
+  let fixture: ComponentFixture<SkillListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
