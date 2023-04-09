@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.sass']
 })
 export class ResumeComponent implements OnInit {
+  pageTitle = 'Resume';
 
   constructor() { }
 
