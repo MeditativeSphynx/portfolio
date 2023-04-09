@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SkillModel } from 'src/app/models/skill.model';
 
 @Component({
   selector: 'app-skill-list',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill-list.component.sass']
 })
 export class SkillListComponent implements OnInit {
-  skills = [
+  skills: SkillModel[] = [
     { name: 'Python' },
     { name: 'Angular' },
     { name: 'VueJS' },
@@ -19,7 +20,7 @@ export class SkillListComponent implements OnInit {
     { name: 'Flask' },
     { name: 'Selenium' },
     { name: 'Cypress' },
-  ]
+  ];
 
   constructor() { }
 
