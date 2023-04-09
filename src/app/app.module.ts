@@ -9,6 +9,7 @@ import { JobHistoryComponent } from './pages/resume/job-history/job-history.comp
 import { JobComponent } from './pages/resume/job-history/job/job.component';
 import { SkillComponent } from './pages/resume/skill-list/skill/skill.component';
 import { TopNavComponent } from './components/shared/top-nav/top-nav.component';
+import { EducationComponent } from './pages/resume/education/education.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TopNavComponent } from './components/shared/top-nav/top-nav.component';
     JobHistoryComponent,
     JobComponent,
     SkillComponent,
-    TopNavComponent
+    TopNavComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
