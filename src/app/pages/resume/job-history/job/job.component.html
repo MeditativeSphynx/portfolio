@@ -1,11 +1,15 @@
-<h2>{{ job.title }}</h2>
-<p>{{ job.company }}</p>
-<h4>
-    {{ job.startedDate.getMonth() + 1 }}/{{ job.startedDate.getFullYear() }}
-    <span *ngIf="!job.isCurrent"> - {{ job.endDate.getMonth() + 1 }}/{{ job.endDate.getFullYear() }}</span>
-</h4>
-<div>
-    <ul>
-        <li *ngFor="let accomplishment of job.accomplishments">{{ accomplishment }}</li>
-    </ul>
+<div class="card shadow mb-5">
+    <div class="card-body">
+        <h2>{{ job.title }}</h2>
+        <p>{{ job.company }}</p>
+        <h4>
+            {{ job.startedDate.getMonth() + 1 }}/{{ job.startedDate.getFullYear() }}
+            <span *ngIf="!job.isCurrent"> - {{ job.endDate.getMonth() + 1 }}/{{ job.endDate.getFullYear() }}</span>
+        </h4>
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item" *ngFor="let accomplishment of job.accomplishments">{{ accomplishment }}</li>
+            </ul>
+        </div>
+    </div>
 </div>
