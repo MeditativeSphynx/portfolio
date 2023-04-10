@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+
+import { JobModel } from 'src/app/models/job.model';
 
 @Component({
   selector: 'app-job',
@@ -6,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./job.component.sass']
 })
 export class JobComponent implements OnInit {
+  @Input() job!: JobModel;
 
   constructor() { }
 
