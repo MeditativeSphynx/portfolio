@@ -1,11 +1,21 @@
-<h2>Skills</h2>
-<p>
-    Through my time as a web developer, I have completed a number of 
-    tasks that have allowed me to learn new technologies. Below is a
-    list of the skills that I have aquired.
-</p>
-<ul>
-    <div *ngFor="let skill of skills">
-        <app-skill [skill]="skill"></app-skill>
+<div class="card shadow mb-5">
+    <div class="card-header">
+        <h2>Skills</h2>
+        <p>
+            Through my time as a web developer, I have completed a number of 
+            tasks that have allowed me to learn new technologies. Below is a
+            list of the skills that I have aquired.
+        </p>
     </div>
-</ul>
+    <div class="card-body">
+        <div class="skill-grid">
+            <div *ngFor="let skill of skills">
+                <div class="card shadow-sm skill-item-card">
+                    <div class="card-body">
+                        <app-skill [skill]="skill"></app-skill>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

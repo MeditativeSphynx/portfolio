@@ -20,7 +20,7 @@ export class JobHistoryComponent implements OnInit {
       ]
     },
     {
-      company: 'Samaritan\'s Purse',
+      company: 'Samaritan\'s Purse (Contractor)',
       title: 'Web Application Developer',
       startedDate: new Date('2022-1-1'),
       isCurrent: false,
