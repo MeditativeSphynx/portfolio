@@ -1,17 +1,18 @@
-<div class="card shadow mb-5">
+<div class="card mb-5">
     <div class="card-body">
         <h2 class="card-title">{{ job.title }}</h2>
-        <p class="card-subtitle text-muted">{{ job.company }}</p>
-        <div class="badge bg-info mb-3">
+        <p class="card-subtitle">{{ job.company }}</p>
+        <div class="mb-3">
             {{ job.startedDate.getMonth() + 1 }}/{{ job.startedDate.getFullYear() }}
             <span *ngIf="!job.isCurrent"> - {{ job.endDate.getMonth() + 1 }}/{{ job.endDate.getFullYear() }}</span>
+            <span *ngIf="job.isCurrent"> - Current</span>
         </div>
         <div>
-            <ul class="list-group shadow-sm">
-                <li class="list-group-item" 
+            <ul class="list-group">
+                <button type="button" class="list-group-item list-group-item-action" 
                     *ngFor="let accomplishment of job.accomplishments">
                     {{ accomplishment }}
-                </li>
+            </button>
             </ul>
         </div>
     </div>
