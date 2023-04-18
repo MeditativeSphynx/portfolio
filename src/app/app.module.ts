@@ -12,6 +12,7 @@ import { TopNavComponent } from './components/shared/top-nav/top-nav.component';
 import { EducationComponent } from './pages/resume/education/education.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/home/about/about.component';
+import { TitleComponent } from './components/shared/title/title.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutComponent } from './pages/home/about/about.component';
     TopNavComponent,
     EducationComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,
