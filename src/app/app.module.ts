@@ -11,6 +11,7 @@ import { SkillComponent } from './pages/resume/skill-list/skill/skill.component'
 import { TopNavComponent } from './components/shared/top-nav/top-nav.component';
 import { EducationComponent } from './pages/resume/education/education.component';
 import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/home/about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './pages/home/home.component';
     SkillComponent,
     TopNavComponent,
     EducationComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
