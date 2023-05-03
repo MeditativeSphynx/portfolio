@@ -1,7 +1,7 @@
-<div class="card mb-5">
-    <div class="card-body">
-        <h2 class="card-title">{{ job.title }}</h2>
-        <p class="card-subtitle">{{ job.company }}</p>
+<div class="mb-5">
+    <div class="text-body">
+        <h2 class="title">{{ job.title }}</h2>
+        <p class="subtitle">{{ job.company }}</p>
         <div class="mb-3">
             {{ job.startedDate.getMonth() + 1 }}/{{ job.startedDate.getFullYear() }}
             <span *ngIf="!job.isCurrent"> - {{ job.endDate.getMonth() + 1 }}/{{ job.endDate.getFullYear() }}</span>
