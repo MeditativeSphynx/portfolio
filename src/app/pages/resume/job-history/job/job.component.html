@@ -8,7 +8,7 @@
             <span *ngIf="job.isCurrent"> - Current</span>
         </div>
         <div>
-            <ul class="list-group">
+            <ul class="list-group list-group-flush">
                 <button type="button" class="list-group-item list-group-item-action" 
                     *ngFor="let accomplishment of job.accomplishments">
                     {{ accomplishment }}
