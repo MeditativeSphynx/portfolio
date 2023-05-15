@@ -19,7 +19,7 @@ export class SkillListComponent implements OnInit {
     { name: 'Django', logoPath: "/assets/django-logo-positive.png", years: 2 },
     { name: 'Flask', logoPath: "/assets/Flask_logo.svg", years: 2 },
     { name: 'Selenium', logoPath: "/assets/640px-Selenium_Logo.png", years: 3 },
-    { name: 'Cypress', logoPath: "/assets/idv3zwmSiY.jpeg", years: 2 }
+    { name: 'Cypress', logoPath: "/assets/idv3zwmSiY.png", years: 2 }
   ];
 
   constructor() { }
