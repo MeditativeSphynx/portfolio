@@ -10,16 +10,7 @@ import { JobModel } from 'src/app/models/job.model';
 export class JobHistoryComponent implements OnInit {
   jobs: JobModel[] = [
     {
-      company: 'Supreme Veteran Logistics',
-      title: 'Delivery Driver (Amazon)',
-      startedDate: new Date('2022-10-1'),
-      isCurrent: true,
-      endDate: new Date(),
-      accomplishments: [
-        'Top company driver on multiple occasions'
-      ]
-    },
-    {
+      relevance: 1,
       company: 'Samaritan\'s Purse (Contractor)',
       title: 'Web Application Developer',
       startedDate: new Date('2022-1-1'),
@@ -28,6 +19,7 @@ export class JobHistoryComponent implements OnInit {
       accomplishments: ['Website redesign', 'Cypress test writing']
     },
     {
+      relevance: 0.9,
       company: 'Answers in Genesis',
       title: 'Quality Assurance Developer / Web Developer',
       startedDate: new Date('2019-6-1'),
@@ -42,6 +34,7 @@ export class JobHistoryComponent implements OnInit {
       ]
     },
     {
+      relevance: 0.5,
       company: 'ATL',
       title: 'Regulatory Affairs Specialist / Chemical Safety Researcher',
       startedDate: new Date('2017-1-1'),
@@ -53,12 +46,22 @@ export class JobHistoryComponent implements OnInit {
         'Indepth research and documenting of chemical safe for human use',
         'Project management for multiple clients'
       ]
+    },
+    {
+      relevance: 0,
+      company: 'Supreme Veteran Logistics',
+      title: 'Delivery Driver (Amazon)',
+      startedDate: new Date('2022-10-1'),
+      isCurrent: true,
+      endDate: new Date(),
+      accomplishments: [
+        'Top company driver on multiple occasions'
+      ]
     }
   ];
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }

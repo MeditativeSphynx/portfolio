@@ -1,4 +1,5 @@
 export interface JobModel {
+    relevance: number;
     company: string;
     title: string;
     startedDate: Date;
