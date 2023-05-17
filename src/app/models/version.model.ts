@@ -1,14 +1,17 @@
-interface ChangeTypeModel {
-    listedChanges: string[];
+export enum typeOfChange {
+    Added,
+    Changed,
+    Fixed,
+    Removed
 }
 
-interface ChangeModel extends ChangeTypeModel {}
-interface AddedChangesModel extends ChangeTypeModel {}
-interface FixedChangesModel extends ChangeTypeModel {}
-interface RemovedChangesModel extends ChangeTypeModel {}
+interface ChangeTypeEntry {
+    type: typeOfChange;
+    content: string;
+}
 
-export interface VersionModel {
-    versionNumber: number;
+export interface ChangelogEntryModel {
+    version: string;
     releaseDate: Date;
-    changes: AddedChangesModel | FixedChangesModel | RemovedChangesModel | ChangeModel;
+    content: ChangeTypeEntry[];
 }

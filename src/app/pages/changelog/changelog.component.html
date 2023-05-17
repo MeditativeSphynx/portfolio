@@ -1,1 +1,15 @@
 <app-title [title]="pageTitle"></app-title>
+<div>
+    <div class="mb-5" *ngFor="let entry of changelogEntries">
+        <h3 class="mb-3">
+            {{ entry.version }} - Released {{ entry.releaseDate.toLocaleDateString() }}
+        </h3>
+        <div class="mb-2" *ngFor="let entryType of entry.content">
+            <h4 *ngIf="entryType.type == 0">Added</h4>
+            <h4 *ngIf="entryType.type == 1">Changed</h4>
+            <h4 *ngIf="entryType.type == 2">Fixed</h4>
+            <h4 *ngIf="entryType.type == 3">Removed</h4>
+            <markdown [data]="entryType.content"></markdown>
+        </div>
+    </div>
+</div>
