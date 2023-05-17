@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-nav.component.sass']
 })
 export class TopNavComponent implements OnInit {
+  links = [
+    { name: 'Home', href: '/' },
+    { name: 'Resume', href: '/resume' },
+    { name: 'Changelog', href: '/changelog' }
+  ];
 
   constructor() { }
 

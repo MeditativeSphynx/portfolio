@@ -12,6 +12,6 @@ interface ChangeTypeEntry {
 
 export interface ChangelogEntryModel {
     version: string;
-    releaseDate: Date;
+    releaseDate: Date | null;
     content: ChangeTypeEntry[];
 }
