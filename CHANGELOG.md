@@ -4,6 +4,8 @@
 
 ### Add - TODO
 * Site footer
+    * Version badge (add to footer)
+    * Link to GitHub repo for site (add to footer)
 * Home page panels to showcase skills learned
 
 ### Fix - TODO
