@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## Version 1.3.0 - TBD
+
+### Add - TODO
+* Site footer
+* Home page panels to showcase skills learned
+
+
+## Version 1.2.0 - May 17, 2023
+
+### Added
+* Site changelog page
+* Changelog to topnav
+* My photo to the welcome page
+
 ## Version 1.1.3
 
 ### Fixed
