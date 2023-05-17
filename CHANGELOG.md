@@ -6,6 +6,10 @@
 * Site footer
 * Home page panels to showcase skills learned
 
+### Fix - TODO
+* Mobile wordwrap on home page
+* Top-nav icon href to '/' instead of 'home'
+
 
 ## Version 1.2.0 - May 17, 2023
 
