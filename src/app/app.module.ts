@@ -17,6 +17,7 @@ import { AboutComponent } from './pages/home/about/about.component';
 import { TitleComponent } from './components/shared/title/title.component';
 import { ChangelogComponent } from './pages/changelog/changelog.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { FooterComponent } from './components/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MarkdownModule } from 'ngx-markdown';
     HomeComponent,
     AboutComponent,
     TitleComponent,
-    ChangelogComponent
+    ChangelogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
