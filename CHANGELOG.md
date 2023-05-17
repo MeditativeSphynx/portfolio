@@ -5,7 +5,7 @@
 ### Add - TODO
 * Site footer
     * Version badge (add to footer) ![](https://img.shields.io/github/v/tag/meditativesphynx/portfolio)
-    * Link to GitHub repo for site (add to footer) ![](https://img.shields.io/badge/GitHub-This%20Repo-blue?link=https://github.com/MeditativeSphynx/portfolio&logo=github)
+    * Link to GitHub repo for site (add to footer) ![](https://img.shields.io/badge/GitHub-Repo-blue?link=https://github.com/MeditativeSphynx/portfolio&logo=github)
 * Home page panels to showcase skills learned
 
 ### Fix - TODO
