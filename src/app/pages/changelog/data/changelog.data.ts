@@ -2,13 +2,37 @@ import { ChangelogEntryModel, typeOfChange } from "src/app/models/version.model"
 
 export const changelogEntries: ChangelogEntryModel[] = [
     {
+      version: "v1.3.0-dev",
+      releaseDate: null,
+      content: [
+        {
+          type: typeOfChange.Added,
+          content: `
+          * Site footer
+              * Version badge (add to footer) ![](https://img.shields.io/github/v/tag/meditativesphynx/portfolio)
+              * Link to GitHub repo for site (add to footer) ![](https://img.shields.io/badge/GitHub-Repo-blue?link=https://github.com/MeditativeSphynx/portfolio&logo=github)
+          * Home page panels to showcase skills learned
+          `
+        },
+        {
+          type: typeOfChange.Fixed,
+          content: `
+          * Mobile wordwrap on home page
+          * Top-nav icon href to '/' instead of 'home'
+          `
+        }
+      ]
+    },
+    {
         version: "v1.2.0",
-        releaseDate: null,
+        releaseDate: new Date(2023, 5, 17),
         content: [
             {
                 type: typeOfChange.Added,
                 content: `
-                * Changelog page
+                * Site changelog page
+                * Changelog to topnav
+                * My photo to the welcome page
                 `
             }
         ]
