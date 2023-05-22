@@ -20,6 +20,12 @@ export const changelogEntries: ChangelogEntryModel[] = [
           * Mobile wordwrap on home page
           * Top-nav icon href to '/' instead of 'home'
           `
+        },
+        {
+          type: typeOfChange.Changed,
+          content: `
+          * Styles and scripts within the angular.json file
+          `
         }
       ]
     },
