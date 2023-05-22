@@ -29,6 +29,7 @@
             ],
             "styles": [
               "src/styles.sass",
+              "src/partials/_font_families.sass",
               "node_modules/bootstrap/scss/bootstrap.scss"
             ],
             "scripts": [
