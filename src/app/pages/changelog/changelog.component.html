@@ -1,9 +1,9 @@
 <app-content-wrapper>
     <app-title [title]="pageTitle"></app-title>
-    <div class="font-monospace">
+    <div>
         <div class="mb-5" *ngFor="let entry of logEntries">
             <h3 class="mb-3">
-                <div *ngIf="entry.releaseDate === null">{{ entry.version }} - TBD</div>
+                <div *ngIf="entry.releaseDate === null">{{ entry.version }} - <i class="bi bi-calendar-minus"></i> TBD</div>
                 <div *ngIf="entry.releaseDate !== null">
                     {{ entry.version }} - <i class="bi bi-calendar-check"></i> Released {{ entry.releaseDate.toLocaleDateString() }}
                 </div>
