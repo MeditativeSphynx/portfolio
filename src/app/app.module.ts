@@ -19,6 +19,7 @@ import { ChangelogComponent } from './pages/changelog/changelog.component';
 import { MarkdownModule } from 'ngx-markdown';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { CopyrightComponent } from './components/shared/footer/copyright/copyright.component';
+import { ContentWrapperComponent } from './components/shared/content-wrapper/content-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { CopyrightComponent } from './components/shared/footer/copyright/copyrig
     TitleComponent,
     ChangelogComponent,
     FooterComponent,
-    CopyrightComponent
+    CopyrightComponent,
+    ContentWrapperComponent
   ],
   imports: [
     BrowserModule,
