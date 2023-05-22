@@ -8,11 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   constructor() {
-    console.log('Home Component')
-    console.log(document.getElementById('site-footer'))
     document.getElementById('site-footer')?.setAttribute(
       'class', document.getElementById('site-footer')?.getAttribute('class') + ' home-footer'
-    )
+    );
   }
 
   ngOnInit(): void {
