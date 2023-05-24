@@ -2,13 +2,19 @@
 
 ## Version 1.3.0 - TBD
 
-### Add - TODO
+### Added
 * Site footer
     * Version badge (add to footer) ![](https://img.shields.io/github/v/tag/meditativesphynx/portfolio)
     * Link to GitHub repo for site (add to footer) ![](https://img.shields.io/badge/GitHub-Repo-blue?link=https://github.com/MeditativeSphynx/portfolio&logo=github)
-* Home page panels to showcase skills learned
+    * Copyright component
+* Picture of Daniel on home page
+* Content wrapper component
 
-### Fix - TODO
+### Changed
+* The use of the Bootstrap CDN to Bootstrap npm package
+* Font families
+
+### Fix
 * Mobile wordwrap on home page
 * Top-nav icon href to '/' instead of 'home'
 

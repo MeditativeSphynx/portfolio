@@ -3,15 +3,17 @@ import { ChangelogEntryModel, typeOfChange } from "src/app/models/version.model"
 export const changelogEntries: ChangelogEntryModel[] = [
     {
       version: "v1.3.0-dev",
-      releaseDate: null,
+      releaseDate: new Date(2023, 4, 24),
       content: [
         {
           type: typeOfChange.Added,
           content: `
           * Site footer
-              * Version badge (add to footer) ![](https://img.shields.io/github/v/tag/meditativesphynx/portfolio)
-              * Link to GitHub repo for site (add to footer) ![](https://img.shields.io/badge/GitHub-Repo-blue?link=https://github.com/MeditativeSphynx/portfolio&logo=github)
-          * Home page panels to showcase skills learned
+            * Version badge (add to footer) ![](https://img.shields.io/github/v/tag/meditativesphynx/portfolio)
+            * Link to GitHub repo for site (add to footer) ![](https://img.shields.io/badge/GitHub-Repo-blue?link=https://github.com/MeditativeSphynx/portfolio&logo=github)
+            * Copyright component
+          * Picture of Daniel on home page
+          * Content wrapper component
           `
         },
         {
@@ -24,6 +26,8 @@ export const changelogEntries: ChangelogEntryModel[] = [
         {
           type: typeOfChange.Changed,
           content: `
+          * The use of the Bootstrap CDN to Bootstrap npm package
+          * Font families
           * Styles and scripts within the angular.json file
           `
         }
@@ -31,7 +35,7 @@ export const changelogEntries: ChangelogEntryModel[] = [
     },
     {
         version: "v1.2.0",
-        releaseDate: new Date(2023, 5, 17),
+        releaseDate: new Date(2023, 4, 17),
         content: [
             {
                 type: typeOfChange.Added,
@@ -45,7 +49,7 @@ export const changelogEntries: ChangelogEntryModel[] = [
     },
     {
         version: "v1.1.3",
-        releaseDate: new Date(2023, 5, 15),
+        releaseDate: new Date(2023, 4, 15),
         content: [
             {
                 type: typeOfChange.Fixed,
@@ -57,7 +61,7 @@ export const changelogEntries: ChangelogEntryModel[] = [
     },
     {
         version: "v1.1.2",
-        releaseDate: new Date(2023, 5, 15),
+        releaseDate: new Date(2023, 4, 15),
         content: [
             {
                 type: typeOfChange.Fixed,
@@ -69,7 +73,7 @@ export const changelogEntries: ChangelogEntryModel[] = [
     },
     {
         version: "v1.1.1",
-        releaseDate: new Date(2023, 5, 15),
+        releaseDate: new Date(2023, 4, 15),
         content: [
             {
                 type: typeOfChange.Fixed,
@@ -82,7 +86,7 @@ export const changelogEntries: ChangelogEntryModel[] = [
     },
     {
       version: "v1.1.0",
-      releaseDate: new Date(2023, 5, 15),
+      releaseDate: new Date(2023, 4, 15),
       content: [
         {
           type: typeOfChange.Added,
@@ -105,7 +109,7 @@ export const changelogEntries: ChangelogEntryModel[] = [
     },
     {
       version: "v1.0",
-      releaseDate: new Date(2023, 4, 14),
+      releaseDate: new Date(2023, 3, 14),
       content: [
         {
           type: typeOfChange.Added,
