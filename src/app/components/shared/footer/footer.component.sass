@@ -7,10 +7,12 @@ footer
     position: static
     margin-top: 4rem
 
-footer.home-footer
-    position: absolute !important
-    bottom: 0
 
-@media (max-width: 768px) 
+@media (max-width: 1000px) 
     footer.home-footer
         position: static !important
+
+@media (min-width: 980px)
+    footer.home-footer
+        position: absolute !important
+        bottom: 0
