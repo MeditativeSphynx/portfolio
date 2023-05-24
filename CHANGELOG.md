@@ -1,6 +1,12 @@
 # CHANGELOG
 
-## Version 1.3.0 - TBD
+## Version 1.3.1 - May 24, 2023
+
+### Fixed
+* Incorrect resume dates
+
+
+## Version 1.3.0 - May 24, 2023
 
 ### Added
 * Site footer
