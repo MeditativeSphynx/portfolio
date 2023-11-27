@@ -2,7 +2,19 @@ import { ChangelogEntryModel, typeOfChange } from "src/app/models/version.model"
 
 export const changelogEntries: ChangelogEntryModel[] = [
     {
-      version: "v1.3.0-dev",
+      version: "v1.3.1",
+      releaseDate: new Date(2023, 4, 24),
+      content: [
+        {
+          type: typeOfChange.Fixed,
+          content: `
+          * Incorrect resume dates
+          `
+        }
+      ]
+    },
+    {
+      version: "v1.3.0",
       releaseDate: new Date(2023, 4, 24),
       content: [
         {

@@ -13,9 +13,9 @@ export class JobHistoryComponent implements OnInit {
       relevance: 1,
       company: 'Samaritan\'s Purse (Contractor)',
       title: 'Web Application Developer',
-      startedDate: new Date(2022,1,1),
+      startedDate: new Date(2022,0,1),
       isCurrent: false,
-      endDate: new Date(2022,7,29),
+      endDate: new Date(2022,6,29),
       accomplishments: ['Website redesign', 'Cypress test writing']
     },
     {
@@ -33,9 +33,9 @@ export class JobHistoryComponent implements OnInit {
       relevance: 0.9,
       company: 'Answers in Genesis',
       title: 'Quality Assurance Developer / Web Developer',
-      startedDate: new Date(2019,6,1),
+      startedDate: new Date(2019,5,1),
       isCurrent: false,
-      endDate: new Date(2022,1,1),
+      endDate: new Date(2022,0,1),
       accomplishments: [
         'Development of QA systems and procedures',
         'Development of web appliactions that manages Python scripts meant for Selenium testing',
@@ -48,9 +48,9 @@ export class JobHistoryComponent implements OnInit {
       relevance: 0.5,
       company: 'ATL',
       title: 'Regulatory Affairs Specialist / Chemical Safety Researcher',
-      startedDate: new Date(2017,1,1),
+      startedDate: new Date(2017,0,1),
       isCurrent: false,
-      endDate: new Date(2019,7,1),
+      endDate: new Date(2019,6,1),
       accomplishments: [
         'Using VBA within Excel to automate the consolidation of research data',
         'Using VBA within Excel to reduce the time of data processing from hours to minutes',
