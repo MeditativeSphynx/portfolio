@@ -22,7 +22,7 @@ export class JobHistoryComponent implements OnInit {
       relevance: 0.95,
       company: 'Vortech Solutions',
       title: 'Developer',
-      startedDate: new Date(2023, 7, 31),
+      startedDate: new Date(2023, 7, 30),
       isCurrent: false,
       endDate: new Date(2023, 9, 18),
       accomplishments: [
