@@ -59,12 +59,23 @@ export class JobHistoryComponent implements OnInit {
       ]
     },
     {
+      relevance: 0.01,
+      company: 'Mr. Handyman',
+      title: 'Assisting Technician',
+      startedDate: new Date(2023, 10, 24),
+      isCurrent: true,
+      endDate: new Date(),
+      accomplishments: [
+        'Assists with a number of home improvement jobs and tasks'
+      ]
+    },
+    {
       relevance: 0,
       company: 'Supreme Veteran Logistics',
       title: 'Delivery Driver (Amazon)',
       startedDate: new Date(2022,10,1),
-      isCurrent: true,
-      endDate: new Date(),
+      isCurrent: false,
+      endDate: new Date(2023, 9, 20),
       accomplishments: [
         'Top company driver on multiple occasions'
       ]
