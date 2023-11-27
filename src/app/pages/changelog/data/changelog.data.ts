@@ -3,7 +3,7 @@ import { ChangelogEntryModel, typeOfChange } from "src/app/models/version.model"
 export const changelogEntries: ChangelogEntryModel[] = [
   {
     version: "v1.3.2",
-    releaseDate: new Date(2023, 11, 27),
+    releaseDate: new Date(2023, 10, 27),
     content: [
       {
         type: typeOfChange.Changed,

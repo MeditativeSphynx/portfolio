@@ -22,9 +22,9 @@ export class JobHistoryComponent implements OnInit {
       relevance: 0.95,
       company: 'Vortech Solutions',
       title: 'Developer',
-      startedDate: new Date(2023, 8, 31),
+      startedDate: new Date(2023, 7, 31),
       isCurrent: false,
-      endDate: new Date(2023, 10, 18),
+      endDate: new Date(2023, 9, 18),
       accomplishments: [
         'Assisted on the design and development of a federal tax web application'
       ]
@@ -75,7 +75,7 @@ export class JobHistoryComponent implements OnInit {
       title: 'Delivery Driver (Amazon)',
       startedDate: new Date(2022,10,1),
       isCurrent: false,
-      endDate: new Date(2023, 9, 20),
+      endDate: new Date(2023, 8, 20),
       accomplishments: [
         'Top company driver on multiple occasions'
       ]
