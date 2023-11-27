@@ -20,6 +20,7 @@ import { MarkdownModule } from 'ngx-markdown';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { CopyrightComponent } from './components/shared/footer/copyright/copyright.component';
 import { ContentWrapperComponent } from './components/shared/content-wrapper/content-wrapper.component';
+import { InterestsComponent } from './pages/interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { ContentWrapperComponent } from './components/shared/content-wrapper/con
     ChangelogComponent,
     FooterComponent,
     CopyrightComponent,
-    ContentWrapperComponent
+    ContentWrapperComponent,
+    InterestsComponent
   ],
   imports: [
     BrowserModule,
