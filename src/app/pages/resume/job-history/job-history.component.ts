@@ -19,6 +19,17 @@ export class JobHistoryComponent implements OnInit {
       accomplishments: ['Website redesign', 'Cypress test writing']
     },
     {
+      relevance: 0.95,
+      company: 'Vortech Solutions',
+      title: 'Developer',
+      startedDate: new Date(2023, 8, 31),
+      isCurrent: false,
+      endDate: new Date(2023, 10, 18),
+      accomplishments: [
+        'Assisted on the design and development of a federal tax web application'
+      ]
+    },
+    {
       relevance: 0.9,
       company: 'Answers in Genesis',
       title: 'Quality Assurance Developer / Web Developer',
