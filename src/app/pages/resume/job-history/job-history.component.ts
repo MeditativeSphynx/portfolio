@@ -19,6 +19,17 @@ export class JobHistoryComponent implements OnInit {
       accomplishments: ['Website redesign', 'Cypress test writing']
     },
     {
+      relevance: 0.95,
+      company: 'Vortech Solutions',
+      title: 'Developer',
+      startedDate: new Date(2023, 8, 31),
+      isCurrent: false,
+      endDate: new Date(2023, 10, 18),
+      accomplishments: [
+        'Assisted on the design and development of a federal tax web application'
+      ]
+    },
+    {
       relevance: 0.9,
       company: 'Answers in Genesis',
       title: 'Quality Assurance Developer / Web Developer',
@@ -48,12 +59,23 @@ export class JobHistoryComponent implements OnInit {
       ]
     },
     {
+      relevance: 0.01,
+      company: 'Mr. Handyman',
+      title: 'Assisting Technician',
+      startedDate: new Date(2023, 10, 24),
+      isCurrent: true,
+      endDate: new Date(),
+      accomplishments: [
+        'Assists with a number of home improvement jobs and tasks'
+      ]
+    },
+    {
       relevance: 0,
       company: 'Supreme Veteran Logistics',
       title: 'Delivery Driver (Amazon)',
-      startedDate: new Date(2022,9,1),
-      isCurrent: true,
-      endDate: new Date(),
+      startedDate: new Date(2022,10,1),
+      isCurrent: false,
+      endDate: new Date(2023, 9, 20),
       accomplishments: [
         'Top company driver on multiple occasions'
       ]
